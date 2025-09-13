@@ -22,4 +22,4 @@ check('isbn13("000000000000")') { isbn13("000000000000") == 0 }
 check('isbn13("100000000002")') { isbn13("100000000002") == 3 }
 check('isbn13("100000000003")') { isbn13("100000000003") == 0 }
 check('isbn13("garbage")') { (begin; isbn13("garbage"); rescue => ex; ex end).is_a?(ArgumentError) }
-check('isbn13(nil)') { (begin; isbn13(nil); rescue => ex; ex end).is_a?(ArgumentError) }⏎
+check('isbn13(nil)') { (begin; isbn13(nil); rescue => ex; ex end).is_a?(ArgumentError) }
