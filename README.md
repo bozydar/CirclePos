@@ -3,12 +3,12 @@
 1. Clone the code
 
    ```
-   $ git clone https://github.com/bozydar/CirclePos.git
+   git clone https://github.com/bozydar/CirclePos.git
    ```
 
 2. Run tests
 
    ```
-   $ cd CirclePos
-   $ ruby isbn13.rb
+   cd CirclePos
+   ruby isbn13.rb
    ```
